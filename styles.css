@@ -132,7 +132,8 @@ h4 {
 /********************************* FOOTER *********************************/
 
 .footer {
-  background-color: #ffcccc;
+  background-color: black;
+  color:white;
   padding: 20px 0;
   text-align: center;
   height: 50px;

@@ -34,10 +34,14 @@
           <a href="order.html">&bull; Order a Cake</a>
           <a href="gallery.html">&bull; The Gallery</a>
         </div>
+<<<<<<< HEAD
         <img alt="header image" class="cake-review" src="../images/cake_review.png">
+=======
+        <img class="cake-review" src="../images/cake_review.png" alt="yummy cake">
+>>>>>>> master
       </div>
       <i class="close fas fa-times"></i>
-      <a href="landing.html">
+      <a href="landing.html" aria-label="Home Page">
         <h2 class="logo"><img src="../images/cake_logo.png"></h2>
       </a>
     </div>
@@ -74,13 +78,18 @@
             <label for='nope'>none</label>
       <input type="radio" name="words" id = "nope">No
       <label for="cake-text">If you selected "writing," please indicate text here: </label>
-      <input type="text" id = 'cake-text' placeholder="cake text">
+      <input type="text" id='cake-text' placeholder="cake text">
       <div>Flavor(s)</div>
-      <input type="checkbox" checked value="chocolate">Chocolate
-      <input type="checkbox" checked value="vanilla">Vanilla
-      <input type="checkbox" checked value="fruit">Fruit
-      <input type="checkbox" checked value="other">Other
+      <label for='flavor-chocolate'>chocolate</label>
+      <input id='flavor-chocolate' type="checkbox" checked value="chocolate">Chocolate
+      <label for='flavor-vanilla'>vanilla </label>
+      <input id='flavor-vanilla' type="checkbox" checked value="vanilla">Vanilla
+      <label for='flavor-fruit'>fruit </label>
+      <input id='flavor-fruit' type="checkbox" checked value="fruit">Fruit
+      <label for='flavor-other'>other </label>
+      <input id='flavor-other' type="checkbox" checked value="other">Other
       <div>Filling(s)</div>
+
       <label for='filling-chocolate'>chocolate</label>
       <input id='filling-chocolate' type="checkbox" checked value="vanilla">Vanilla
       <label for='filling-vanilla'>vanilla </label>
@@ -107,20 +116,36 @@
       <input id='topping-fruit' type="checkbox" checked value="fruit">Fruit
       <label for='topping-other'>other </label>
       <input id='topping-other' type="checkbox" checked value="other">Other
+
       <select name="Quantity of Cake">
+<<<<<<< HEAD
         <option aria-label="1-10" value="1-10">1 - 10</option>
         <option aria-label="10-20" value="10-20">10 - 20</option>
         <option aria-label="20-30" value="10-20">20 - 30</option>
         <option aria-label="30-40" value="10-20">30 - 40</option>
         <option aria-label="40-50" value="40-50">40 - 50</option>
         <option aria-label="50 plus" value="50+">50+</option>
+=======
+
+        <option value="1-10">1 - 10</option>
+        <option value="10-20">10 - 20</option>
+        <option value="10-20">20 - 30</option>
+        <option value="10-20">30 - 40</option>
+        <option value="40-50">40 - 50</option>
+        <option value="50+">50+</option>
+>>>>>>> master
       </select>
       <div>
         <textarea  aria-label="provide details" name="Extra Details" id="extra-details" cols="30" rows="10">Please Provide Details if Selected "Other" Anywhere on Form</textarea>
       </div>
       <div>Desired Pickup Date <br>(*note this is desired only and is not a confirmation, we will email you with details or
         contact you if more information is required regarding your cake.</div>
+<<<<<<< HEAD
       <input aria-label="inputdate" required type="number" id='date'>
+=======
+
+      <input required type="number" id='date'>
+>>>>>>> master
       <div>
         <button type="submit" class="form-submit">Submit Form</button>
       </div>
@@ -130,7 +155,7 @@
   <div class="footer">
     <div>Contact Us</div>
     <div>
-      <a aria-label="instagram" href=""><i class="fab fa-instagram" ></i></a>
+      <a aria-label="instagram" href=""><i class="fab fa-instagram"></i></a>
       <a aria-label="facebook" href=""><i class="fab fa-facebook-square"></i></a>
       <a aria-label="opensomething" href=""><i class="fas fa-envelope-open"></i></a>
       <a aria-label="Twitter" href=""><i class="fab fa-twitter"></i></a>
